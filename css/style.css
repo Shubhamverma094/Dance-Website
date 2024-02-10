@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;1,300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+/* Header Section start */
+
+.nav-bar .logo {
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.nav-bar {
+    background: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    transition: 3s ease;
+
+
+}
+
+/* .nav-bar ul li {
+    margin: 0px 10px;
+
+} */
+
+.nav-bar ul li a {
+    color: #fff;
+    font-size: 23px;
+    padding: 0 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    display: inline-block;
+
+}
+
+
+.nav-bar ul li a:hover {
+    color: #e8631c;
+}
+
+.nav-bar .search {
+    color: #fff;
+    font-size: 23px;
+    padding: 0px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+}
+
+.nav-bar .search:hover {
+    color: #e8631c;
+}
+
+.search-text input {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    padding: 4px 15px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(172, 172, 172);
+    display: none;
+
+}
+
+.search-text input::placeholder {
+    margin: 0 auto;
+    font-size: 25px;
+    color: #818181;
+}
+
+
+.bars {
+    font-size: 23px;
+    color: #fff;
+    padding: 0 23px;
+    cursor: pointer;
+    display: none;
+   
+   
+}
+
+.back-img {
+    background-image: url(../img/main.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: #fff;
+
+}
+
+.header-text h1 {
+    font-size: 75px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.header-text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.header-text a {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background: #e8631c;
+    padding: 12px 20px;
+    margin-top: 20px;
+    transition: 0.5s ease;
+    border: none;
+    border-radius: 3px;
+}
+
+.header-text a:hover {
+    background: transparent;
+    color: #fff;
+}
+
+/* Header Section End */
+
+
+/* Dance Card section Start */
+
+
+.dance-card {
+    background: #e8631c;
+    padding: 100px 0;
+}
+
+.heading-text {
+    text-align: center;
+    color: #fff;
+}
+
+.heading-text h1 {
+    font-size: 75px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.heading-text p {
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+.card-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px auto;
+    flex-wrap: wrap;
+}
+
+
+.cards {
+    width: 300px;
+    height: 500px;
+    margin: 0px 38px;
+
+}
+
+.cards img {
+    width: 100%;
+    cursor: pointer;transition: .3s ease;
+}
+
+.cards img:hover{
+    transform: scale(1,.9);
+}
+
+.cards-text {
+    background: #303030;
+    margin: -4px 0px;
+    width: 100%;
+    height: 150px;
+    color: #fff;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+.cards-text:hover {
+    background: #7b7b7b;
+    color: #fff;
+}
+
+
+.cards h3 {
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    
+}
+
+.cards p {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+
+
+/* Dance Card section End */
+
+
+/* Card section-2 start */
+
+.dance-card-sec-2 {
+
+    background: #303030;
+    padding: 100px 0;
+}
+
+.card-sec-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px auto;
+    flex-wrap: wrap;
+}
+
+
+.cards-2 {
+    background: #e8631c;
+    width: 350px;
+    height: 500px;
+    margin: 30px 0;
+
+}
+
+.cards-2 img {
+    width: 55%;
+    margin: 35px 85px;
+    cursor: pointer;
+}
+
+.cards-2 img:hover{
+    transform: scale(1,.9);
+}
+
+
+.cards-text-2 {
+    height: 150px;
+    color: #fff;
+    transition: 0.5s ease;
+    text-align: center;
+}
+
+.cards-text-2 h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.cards-text-2 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.cards-text-2 button {
+    width: 200px;
+    height: 35px;
+    padding: 4px 20px;
+    font-size: 20px;
+    background: #303030;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    transition: .3s ease;
+}
+
+.cards-text-2 button:hover {
+    background: #818181;
+    color: #fff;
+    transform: scale(1.1, .9);
+
+}
+
+
+
+.dance-sec {
+    padding: 100px 0;
+}
+
+
+
+
+.dance-img-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dance-img-sec {
+    background: #e8631c;
+}
+
+
+.dance-img-sec img {
+    width: 50%;
+    height: 100vh;
+
+}
+
+.dance-text {
+    display: flex;
+    margin: 0 auto;
+    color: #fff;
+    flex-direction: column;
+
+}
+
+.dance-text h1 {
+    margin-bottom: 20px;
+    font-size: 55px;
+    font-size: 400;
+    text-transform: uppercase;
+
+}
+
+
+.dance-text p {
+
+    font-size: 16px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+
+.dance-text a {
+
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    padding: 5px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    background: #303030;
+}
+
+
+.dance-text a:hover {
+    background: #818181;
+    color: #fff;
+    transform: scale(1.1, .9);
+}
+
+/* Card section-2 End */
+
+/* Div sec-3 start */
+
+.sec-3 {
+    background: #303030;
+    padding: 100px 0;
+}
+
+
+.sec-3-trafic {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.trafic {
+    color: #fff;
+    margin-top: 100px;
+}
+
+
+.trafic h2 {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+
+.trafic p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Div sec-3 End */
+
+/* Sec-4 start  */
+
+.sec-4 {
+    background-image: url(../img/bgimg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+
+.bg-sec {
+    background-color: rgba(142, 35, 35, 0.71);
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+.sec-4-text {
+    position: absolute;
+    top: 40%;
+    left: 41%;
+    color: #fff;
+}
+
+.sec-4-text p {
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+}
+
+
+.sec-4-text h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* Sec-4 End  */
+
+
+/* Sec-5 satart */
+
+.sec-5 {
+    background: #e8631c;
+    padding: 100px 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+.contact input {
+    width: 360px;
+    height: 40px;
+    border: none;
+    padding: 8px 20px;
+}
+
+.contact input::placeholder {
+    font-size: 16px;
+    color: #818181;
+}
+
+
+.contact a {
+    padding: 10px 20px;
+    background: #303030;
+    color: #fff;
+}
+
+
+
+/* Sec-5 End */
+
+
+/* footer section start */
+.footer-sec {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 0;
+    background: #303030;
+    color: #fff;
+}
+
+
+.footer-text h2 {
+    font-size: 25px;
+    font-weight: 300;
+
+}
+
+.footer-text p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+
+.footer-icon {
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+
+.footer-icon i {
+    font-size: 25px;
+    width: 55px;
+    height: 55px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    color: rgb(48, 48, 48);
+    margin: 2px 7px;
+    padding: 13px 14px;
+    transition: .5s ease;
+
+}
+
+.footer-icon i:hover {
+    background: #303030;
+    color: #fff;
+}
+
+
+
+/* footer section End */
