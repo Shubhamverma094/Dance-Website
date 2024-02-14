@@ -73,6 +73,7 @@ nav ul {
     font-size: 23px;
     padding: 0px 20px;
     cursor: pointer;
+    margin-top: 12px;
     transition: 0.5s ease;
 
 }
@@ -98,14 +99,15 @@ nav ul {
 }
 
 .search-text input::placeholder {
-    margin: 0 auto;
-    font-size: 25px;
+    margin-top: 12px;
+    /* margin: 0 auto; */
+    font-size: 22px;
     color: #818181;
 }
 
 
 .bars {
-    font-size: 23px;
+    font-size: 22px;
     color: #fff;
     padding: 0 23px;
     cursor: pointer;
